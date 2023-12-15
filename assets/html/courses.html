@@ -1,0 +1,378 @@
+<!--
+    Name: Han, Shu Han
+    Date: Feb 21, 2023
+    Section: CST 8285 section 300
+    Lab: 304
+    File: courses.html
+    Lab objective: Self image website Courses
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Shu Han Han">
+    <meta name="description" content="Web Assignment1 (Self Image Website)">
+    <meta name="keywords" content="Shu Han Han, Web Assignment, Self Image Website">
+    <title>Shu Han Han</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="../vendors/themify-icons/css/themify-icons.css">
+    <!-- Main styles -->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- jquery  -->
+    <script src="../vendors/jquery/jquery-3.4.1.js" defer></script>
+    <!-- bootstrap affix -->
+    <script src="../vendors/bootstrap/bootstrap.affix.js" defer></script>
+    <!-- My js -->
+    <script src="../js/main.js" defer></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <ul class="social-icons pt-3">
+                <li class="social-item"><a class="social-link text-light"
+                        href="https://www.facebook.com/profile.php?id=100000115294534" target="_blank"><i
+                            class="ti-facebook" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light"
+                        href="https://www.linkedin.com/in/shu-han-han-1486a91b6/" target="_blank"><i class="ti-linkedin"
+                            aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="mailto:han00135@algonquinlive.com"><i
+                            class="ti-google" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://github.com/HanShuHan"
+                        target="_blank"><i class="ti-github" aria-hidden="true"></i></a></li>
+            </ul>
+            <div class="header-content">
+                <h4 class="header-subtitle">Hello, I am</h4>
+                <h1 class="header-title">Shu Han Han</h1>
+                <h6 class="header-mono">Java Programmer | College Student</h6>
+                <a class="btn btn-primary btn-rounded button" href="../img/resume.pdf" target="_blank">
+                    <i class="ti-printer pr-2"></i>Print Resume
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Nav -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../../index.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="resume.html" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <li><img src="../img/mug-shot.jpg" alt="" class="brand-img"></li>
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Shu Han Han</h5>
+                        <div class="brand-subtitle">Java Programmer | College Student</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#courses" class="nav-link">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item last-item invisible">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Nav -->
+    <!-- Main -->
+    <main>
+        <!-- courses Section -->
+        <section class="section bg-custom-gray" id="courses">
+            <div class="container">
+                <h2 class="mb-5"><span class="text-danger">My</span> Courses</h2>
+                <div class="courses">
+                    <nav class="bg-body-tertiary filters">
+                        <div class="container-fluid">
+                            <form class="d-flex" role="search">
+                                <input list="class-list" id="search" class="form-control me-2" type="text"
+                                    placeholder="Course Name..." aria-label="Search" autocomplete="off">
+                                <!-- Radio -->
+                                <div class="container-fluid">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="level-up"
+                                            value="option1" checked>
+                                        <label class="form-check-label" for="level-up">
+                                            Level &#8593;
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios"
+                                            id="level-down" value="option2">
+                                        <label class="form-check-label" for="level-down">
+                                            Level &#8595;
+                                        </label>
+                                    </div>
+                                </div>
+                                <!-- Data-list -->
+                                <datalist id="class-list">
+                                    <option value="Computer Essentials"></option>
+                                    <option value="Introduction to Computer Programming"></option>
+                                    <option value="Introduction to Database"></option>
+                                    <option value="Technical Mathematics for Computer Science"></option>
+                                    <option value="Communications I"></option>
+                                    <option value="Achieving Success in Changing Environments"></option>
+                                    <option value="Database Systems"></option>
+                                    <option value="Operating System Fundamentals (GNU/Linux)"></option>
+                                    <option value="Object Oriented Programming (Java)"></option>
+                                    <option value="Web Programming"></option>
+                                    <option value="Technical Communication for Engineering Technologies"></option>
+                                    <option value="Cooperative Education Readiness"></option>
+                                </datalist>
+                            </form>
+                        </div>
+                    </nav>
+                    <section class="section" id="classes">
+                        <div class="container">
+                            <!-- Level 01 -->
+                            <!-- Computer Essentials -->
+                            <div class="col-md-6 col-lg-4 card level-01 all">
+                                <div class="courses-item">
+                                    <img src="../img/computer-essentials.jpeg" class="card-img-top" alt="...">
+
+                                    <div class="card-body auto-over-flw">
+                                        <h5 class="card-title class-title">Computer Essentials</h5>
+                                        <p class="card-text">The essentials of computer software, hardware, and laptop
+                                            management form the foundation for building further technical programming
+                                            skills.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">CST8101</li>
+                                        <li class="list-group-item class-level">Level 01</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Introduction to Computer Programming -->
+                            <div class="col-md-6 col-lg-4 card level-01 all">
+                                <div class="courses-item">
+                                    <img src="../img/big-java.jpeg" class="card-img-top" alt="...">
+
+                                    <div class="card-body auto-over-flw">
+                                        <h5 class="card-title class-title">Introduction to Computer Programming</h5>
+                                        <p class="card-text">Possessing the fundamentals of logic, problem-solving and
+                                            programming language structure provides a solid foundation for further study
+                                            in
+                                            the field.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">CST8116</li>
+                                        <li class="list-group-item class-level">Level 01</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Introduction to Database -->
+                            <div class="col-md-6 col-lg-4 card level-01 all">
+                                <div class="courses-item">
+                                    <img src="../img/database-processing.jpg" class="card-img-top" alt="...">
+
+                                    <div class="card-body auto-over-flw">
+                                        <h5 class="card-title class-title">Introduction to Database</h5>
+                                        <p class="card-text">Databases are used to store data and are a core component
+                                            of
+                                            many information technology systems.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">CST8215</li>
+                                        <li class="list-group-item class-level">Level 01</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Technical Mathematics for Computer Science -->
+                            <div class="col-md-6 col-lg-4 card level-01 all">
+                                <div class="courses-item">
+                                    <img src="../img/math.jpg" class="card-img-top" alt="...">
+
+                                    <div class="card-body auto-over-flw">
+                                        <h5 class="card-title class-title">Technical Mathematics for Computer Science
+                                        </h5>
+                                        <p class="card-text">The study of algebraic and transcendental functions is an
+                                            essential prerequisite to Calculus.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">MAT8001C</li>
+                                        <li class="list-group-item class-level">Level 01</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Communications I -->
+                            <div class="col-md-6 col-lg-4 card level-01 all">
+                                <div class="courses-item">
+                                    <img src="../img/english.gif" class="card-img-top" alt="...">
+
+                                    <div class="card-body auto-over-flw">
+                                        <h5 class="card-title class-title">Communications I</h5>
+                                        <p class="card-text">Using a practical, vocation-oriented approach, students
+                                            focus
+                                            on meeting the requirements of effective communication.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">ENL1813T</li>
+                                        <li class="list-group-item class-level">Level 01</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Achieving Success in Changing Environments -->
+                            <div class="col-md-6 col-lg-4 card level-01 all">
+                                <div class="courses-item">
+                                    <img src="../img/none.png" class="card-img-top" alt="...">
+                                    <div class="card-body auto-over-flw">
+                                        <h5 class="card-title class-title">Achieving Success in Changing Environments
+                                        </h5>
+                                        <p class="card-text">Students explore the possibilities ahead, assess their own
+                                            aptitudes and strengths, and apply critical thinking and decision-making
+                                            tools
+                                            to help resolve some of the important issues in our complex society with its
+                                            competing interests.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">CST8300</li>
+                                        <li class="list-group-item class-level">Level 01</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Level 02 -->
+                            <!-- Database Systems -->
+                            <div class="col-md-6 col-lg-4 card level-02 all">
+                                <div class="courses-item">
+                                    <img src="../img/database-processing.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body auto-over-flw">
+                                        <h5 class="card-title class-title">Database Systems</h5>
+                                        <p class="card-text">Students acquire practical experience using market-leading
+                                            object-relational database management systems like Oracle and MySQL.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">CST2355</li>
+                                        <li class="list-group-item class-level">Level 02</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Operating System Fundamentals (GNU/Linux) -->
+                            <div class="col-md-6 col-lg-4 card level-02 all">
+                                <div class="courses-item">
+                                    <img src="../img/linux.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body auto-over-flw">
+                                        <h5 class="card-title class-title">Operating System Fundamentals (GNU/Linux)
+                                        </h5>
+                                        <p class="card-text">Students explore the basic concepts and components of
+                                            Operating
+                                            Systems (OS), and how they function and interact with hardware and software
+                                            components.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">CST8102</li>
+                                        <li class="list-group-item class-level">Level 02</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Object Oriented Programming (Java) -->
+                            <div class="col-md-6 col-lg-4 card level-02 all">
+                                <div class="courses-item">
+                                    <img src="../img/big-java.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body auto-over-flw">
+                                        <h5 class="card-title class-title">Object Oriented Programming (Java)</h5>
+                                        <p class="card-text">Students explore object-oriented programming methodology
+                                            using
+                                            the Java programming language. Object oriented concepts, such as
+                                            encapsulation,
+                                            inheritance, abstraction and polymorphism are covered and reinforced with
+                                            practical applications.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">CST8284</li>
+                                        <li class="list-group-item class-level">Level 02</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Web Programming -->
+                            <div class="col-md-6 col-lg-4 card level-02 all">
+                                <div class="courses-item">
+                                    <img src="../img/web.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body auto-over-flw">
+                                        <h5 class="card-title class-title">Web Programming</h5>
+                                        <p class="card-text">Students develop basic skills of web programming, website
+                                            design and implementation. JavaScript, HTML5, and PHP are used to explore
+                                            web-based solutions to problems of increasing interactivity and complexity.
+                                        </p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">CST8285</li>
+                                        <li class="list-group-item class-level">Level 02</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Technical Communication for Engineering Technologies -->
+                            <div class="col-md-6 col-lg-4 card level-02 all">
+                                <div class="courses-item">
+                                    <img src="../img/english.gif" class="card-img-top" alt="...">
+                                    <div class="card-body auto-over-flw">
+                                        <h5 class="card-title class-title">Technical Communication for Engineering
+                                            Technologies</h5>
+                                        <p class="card-text">Students are exposed to exercises and assignments designed
+                                            to
+                                            foster independent and collaborative critical thinking, research, writing,
+                                            visual communication and presentation skills related to technical topics.
+                                        </p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">ENL2019T</li>
+                                        <li class="list-group-item class-level">Level 02</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Cooperative Education Readiness -->
+                            <div class="col-md-6 col-lg-4 card level-02 all">
+                                <div class="courses-item">
+                                    <img src="../img/none.png" class="card-img-top" alt="...">
+                                    <div class="card-body auto-over-flw">
+                                        <h5 class="card-title class-title">Cooperative Education Readiness</h5>
+                                        <p class="card-text">Students are guided through a series of activities that
+                                            prepare
+                                            them to conduct a professional job search and succeed in the workplace.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">GEP1001</li>
+                                        <li class="list-group-item class-level">Level 02</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- End of courses section -->
+
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy;
+                <script>document.write(new Date().getFullYear())</script> Created With <i
+                    class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span
+                        class="text-danger" title="Bootstrap 4 Themes and Dashboards">Shu Han Han</span></a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

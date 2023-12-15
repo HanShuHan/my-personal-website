@@ -1,0 +1,43 @@
+/*
+    Name: Han, Shu Han
+    Date: Feb 11, 2023
+    Section: CST 8285 section 300
+    Lab: 304
+    File: Lab3-bootstrap.css
+ */
+
+figure {
+    margin: 150px 40px 40px 40px;
+}
+
+img {
+    width: 25vw;
+}
+
+ul > li:nth-child(even) {
+    list-style-type: none;
+}
+
+ul > li:nth-child(odd) {
+    font-size: larger;
+    font-weight: normal;
+}
+
+.no-display {
+    display: none;
+}
+
+.bottom-fixed {
+    position: fixed;
+    bottom: 10px;
+}
+
+.title {
+    color: bisque;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
