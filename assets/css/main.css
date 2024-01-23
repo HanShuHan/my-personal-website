@@ -11440,7 +11440,7 @@ pre .code {
 
 .navbar .brand .brand-img {
   position: absolute;
-  left: 50%;
+  left: 48%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -11483,7 +11483,7 @@ pre .code {
 }
 
 .navbar.affix .brand-img {
-  top: -10px;
+  top: -100px;
   opacity: 0;
 }
 
@@ -11526,8 +11526,7 @@ pre .code {
 
 .header {
   position: relative;
-  height: 80vh;
-  min-height: 600px;
+  height: 72vh;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../imgs/new-zealand.png);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../imgs/new-zealand.png);
   background-size: cover;
@@ -11703,4 +11702,12 @@ pre .code {
   background: #F85C70;
   display: block;
   margin-top: 10px;
+}
+
+/* My CSS Style */
+
+.certificate-icon {
+  margin-left: 10%;
+  width: 200px;
+  height: 200px;
 }
